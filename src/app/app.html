@@ -1,1 +1,5 @@
-<mat-star-rating [rating]="rating"  [starCount]="starCount" [color]="starColor" (ratingUpdated)="onRatingChanged($event)"></mat-star-rating>
+<mat-star-rating
+  [rating]="rating"
+  [count]="starCount"
+  (ratingUpdated)="onRatingChanged($event)"
+></mat-star-rating>
